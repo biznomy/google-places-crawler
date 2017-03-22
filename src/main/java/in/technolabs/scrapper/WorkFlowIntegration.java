@@ -20,8 +20,8 @@ public class WorkFlowIntegration {
 
 	private static final String DATABASE_DRIVER = "com.mysql.jdbc.Driver";
 	private static final String JDBC_CONNECTION = "jdbc:mysql://localhost/googlescrapper?createDatabaseIfNotExist=true&amp;amp;useUnicode=true&amp;amp;characterEncoding=utf-8&amp;amp;autoReconnect=true";
-	private static final String USER_NAME = "root";
-	private static final String PASSWORD = "ltc";
+	private static final String USER_NAME = "<db_user>";
+	private static final String PASSWORD = "<db_password>";
 
 	@Bean
 	public DataSource getDataSource() {
